@@ -60,7 +60,26 @@
 				<d2p1:anyType i:type="Folder">
 					<Children>
 						<d2p1:anyType i:type="BurnFolder">
-							<BurnSettings />
+							<BurnSettings>
+								<d2p1:anyType i:type="GenericImageToDataRGTBurnSettings">
+									<AlphaEdge>false</AlphaEdge>
+									<BlackBorder>false</BlackBorder>
+									<CompressTextures>true</CompressTextures>
+									<FlipImage>true</FlipImage>
+									<ForceFormat>false</ForceFormat>
+									<Metadata i:type="BurnFolderMetadata">
+										<Exclude />
+										<Include />
+									</Metadata>
+									<MipDrop>0</MipDrop>
+									<MipMap>true</MipMap>
+									<PreferredFormat>Default</PreferredFormat>
+									<RescaleNonPowerTwo>true</RescaleNonPowerTwo>
+									<TexSharpen>false</TexSharpen>
+									<MixInputs></MixInputs>
+									<MixInputsDefaults></MixInputsDefaults>
+								</d2p1:anyType>
+							</BurnSettings>
 							<Hint>Default</Hint>
 							<RelativeName>data\art</RelativeName>
 						</d2p1:anyType>
